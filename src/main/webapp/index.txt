@@ -1,0 +1,30 @@
+<!-- 
+Cameron Holbrook
+CSCI 3381
+11/15/22
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Netflix User Login</title>
+</head>
+<body>
+	<form
+		action=http://localhost:8082/netflix-web-gui-implementation/Servlet
+		method="get">
+		<p align="center">
+			<img src="imageAssets/logo_2015.png" alt="Netflix Logo" width="400"><br> <br>Username: <input type="text"
+				name="usernameTextbox" style="width: 158px">
+		</p>
+		<p align="center">
+			Password : <input type="password" name="password"
+				style="width: 159px;">
+		</p>
+		<p align="center">
+			<input type="submit" value="Enter" name="indexButton"
+				style="width: 219px; color:rgb(0, 0, 0); font-weight: bold; font-style: italic">
+	</form>
+</body>
+</html>
